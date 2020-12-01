@@ -1,0 +1,23 @@
+{
+  "name": "libretuca-picantita",
+  "version": "1.0.0",
+  "description": "Proyecto Librería grupo3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EffectiveXf5/libretuca-picantita.git"
+  },
+  "author": "Grupo3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EffectiveXf5/libretuca-picantita/issues"
+  },
+  "homepage": "https://github.com/EffectiveXf5/libretuca-picantita#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
+  }
+}
