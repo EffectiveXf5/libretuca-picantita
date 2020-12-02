@@ -2,8 +2,9 @@
   "name": "libretuca-picantita",
   "version": "1.0.0",
   "description": "Proyecto Librería grupo3",
-  "main": "index.js",
+  "main": "./views/app.js",
   "scripts": {
+    "dev": "nodemon ./views/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
