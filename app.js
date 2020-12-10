@@ -10,6 +10,7 @@ app.engine('hbs', handlebars({
 layoutsDir: __dirname + '/views/layouts',
 extname: 'hbs',
 defaultLayout: 'planB',
+partialsDir: __dirname + '/views/partials/'
 }));
 app.use(express.static('public'))
 app.get('/', (req, res) => {
