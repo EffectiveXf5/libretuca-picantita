@@ -1,0 +1,10 @@
+.desplegableBusqueda{
+    display: flex;
+    margin: auto;
+    margin-top: 30rem;
+    border: 1px solid black;
+    width: 40rem;
+    height: 2.3rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
