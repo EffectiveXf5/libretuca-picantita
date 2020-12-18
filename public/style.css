@@ -1,9 +1,5 @@
 *{
-<<<<<<< HEAD
     margin: 0;
-=======
-	margin: 0;
->>>>>>> barraTitulo
     padding: 0;
     box-sizing: border-box;
     list-style: none;
@@ -28,12 +24,7 @@ li {
         }
 
 body{
-<<<<<<< HEAD
     background-image: url(../Imagenes/foto2.png);
-=======
-    background-image: url(../Imagenes/foto1.png);
-    background-repeat: no-repeat;
->>>>>>> barraTitulo
     background-size: cover;
 }
 
