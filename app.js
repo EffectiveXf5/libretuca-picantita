@@ -18,7 +18,7 @@ res.render('main', {layout:'index'});
 });
 
 app.get('/relatoseroticos', (req, res) => {
-res.render('main2', {layout:'planB'});
+res.render('templateLibro1', {layout:'planB'});
 });
 
 app.get('/new', (req, res) => {
