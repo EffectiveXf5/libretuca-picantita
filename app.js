@@ -28,6 +28,11 @@ app.get("/todoonada", (req, res) => {
   res.render("templateLibro2", { layout: "planB" });
 });
 
+app.get("/hazmedisfrutar", (req, res) => {
+  res.render("templateLibro3", { layout: "planB" });
+});
+
+
 app.get("/new", (req, res) => {
   res.render("addLibroTemplate", { layout: "index" });
 });
