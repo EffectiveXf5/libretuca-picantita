@@ -17,6 +17,10 @@ app.engine(
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
+  res.render("1main", {layout: "principal"});
+});
+
+app.get("/listadolibros", (req, res) => {
   res.render("main", { layout: "index" });
 });
 

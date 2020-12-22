@@ -1,0 +1,7 @@
+header {
+  width: 96rem;
+  height: 7rem;
+  background: #000000;
+  display: flex;
+  align-items: flex-start;
+}
