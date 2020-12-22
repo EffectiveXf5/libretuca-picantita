@@ -32,6 +32,9 @@ app.get("/hazmedisfrutar", (req, res) => {
   res.render("templateLibro3", { layout: "planB" });
 });
 
+app.get("/elcontrato", (req, res) => {
+  res.render("templateLibro4", { layout: "planB" });
+});
 
 app.get("/new", (req, res) => {
   res.render("addLibroTemplate", { layout: "index" });
@@ -41,3 +44,5 @@ app.get("/relatoseroticos/editar", (req, res) => {
 });
 
 app.listen(port, () => console.log(`App listening to port ${port}`));
+
+
