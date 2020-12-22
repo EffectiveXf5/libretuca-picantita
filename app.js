@@ -36,5 +36,8 @@ app.get("/hazmedisfrutar", (req, res) => {
 app.get("/new", (req, res) => {
   res.render("addLibroTemplate", { layout: "index" });
 });
+app.get("/relatoseroticos/editar", (req, res) => {
+  res.render("editarlibroTemplate", { layout: "planB" });
+});
 
 app.listen(port, () => console.log(`App listening to port ${port}`));
