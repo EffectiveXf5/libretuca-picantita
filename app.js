@@ -29,11 +29,15 @@ app.get("/todoonada", (req, res) => {
 });
 
 app.get("/hazmedisfrutar", (req, res) => {
-  res.render("templateLibro3", { layout: "planB" });
+  res.render("TemplateLibro3", { layout: "planB" });
 });
 
 app.get("/elcontrato", (req, res) => {
-  res.render("templateLibro4", { layout: "planB" });
+  res.render("TemplateLibro4", { layout: "planB" });
+});
+
+app.get("/lasumisainsumisa", (req, res) => {
+  res.render("TemplateLibro5", { layout: "planB" });
 });
 
 app.get("/new", (req, res) => {
