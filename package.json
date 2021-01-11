@@ -19,7 +19,8 @@
   "homepage": "https://github.com/EffectiveXf5/libretuca-picantita#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.0"
+    "express-handlebars": "^5.2.0",
+    "mongoose": "^5.11.11"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"

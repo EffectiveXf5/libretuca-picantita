@@ -3,6 +3,8 @@ const app = express();
 const port = 5500;
 const handlebars = require("express-handlebars");
 
+require('./conexion');
+
 app.set("view engine", "hbs");
 
 app.engine(
