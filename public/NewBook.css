@@ -18,7 +18,6 @@
 section{
     justify-content: space-around;
     margin: 2rem;
-    
 }
 
 button{
@@ -29,4 +28,73 @@ button{
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+#accesorioNuevo{
+    display: flex;
+    width: 7rem;
+    height: 2rem;
+    margin-left: 35rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 1rem;
+    border: none;
+    padding-left: 1rem;
+}
+
+#precioNuevo{
+    display: flex;
+    width: 4.5rem;
+    height: 2rem;
+    margin-left: 61rem;
+    margin-top: -3.2rem;
+    margin-bottom: 3rem;
+    color: black;
+    font-size: 1.7rem;
+    border: none;
+    padding-left: 1rem;
+}
+
+#sinopsisNuevo{
+    display: flex;
+    width: 45rem;
+    height: 20rem;
+    margin-left: 35rem;
+    /* margin-top: 2rem; */
+    color: black;
+    font-size: 1rem;
+    border: none;
+    padding-left: 1rem;
+}
+
+#tituloNuevo{
+    display: flex;
+    width: 60rem;
+    height: 2rem;
+    margin-left: 10rem;
+    color: black;
+    border: none;
+}
+
+#portadaNuevo {
+    display: flex;
+    margin-left: 1.5rem;
+    margin-top: -38rem;
+    margin-bottom: 3rem;
+    border: none;
+    padding-left: 1rem;
+}
+
+#stockNuevo{
+    display: flex;
+    width: 4.5rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-top: -3.2rem;
+    margin-bottom: 3rem;
+    color: black;
+    font-size: 1.7rem;
+    border: none;
+    padding-left: 1rem;
 }
