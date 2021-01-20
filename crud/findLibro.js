@@ -1,9 +1,10 @@
 require("../conexion");
-const libro = require("../models/product");
+const book = require("../models/book");
+
 
 const buscarLibro = async () => {
-    await libro.find({});
-    console.log(product);
+    await book.find({});
+    console.log(book);
 }
 
 buscarLibro();

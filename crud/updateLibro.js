@@ -1,10 +1,11 @@
 require("../conexion");
-const libro = require("../models/product");
+const book = require("../models/book");
+
 
 
 const editarLibro = async () => {
-    const producto = await libro.findOneAndUpdate({name: 'teclado'},{name: "raton"},{new: true});
-    console.log(producto);
+    const producto = await book.findOneAndUpdate({name: 'teclado'},{name: "raton"},{new: true});
+    console.log(book);
 }                                  
 
 editarLibro();

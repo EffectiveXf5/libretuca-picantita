@@ -1,6 +1,6 @@
 'use strict'
 const mongoose = require('mongoose');
-const MONGODB = 'mongodb://localhost:27017/LibretucaPicantita ';
+const MONGODB = 'mongodb://localhost:27017/Libretuca';
 
 mongoose.connect(MONGODB, {
     useNewUrlParser: true,
@@ -13,11 +13,13 @@ mongoose.connect(MONGODB, {
 
 .catch(err => console.log(err));
 
-
-// const mongoose = require('mongoose')
-// mongoose.connect('mongodb://localhost/libretucaPicantita', {useNewUrlParser: true, useUnifiedTopology: true});
+// mongoose.set('useFindAndModify', false);
+// mongoose.connect('mongodb://localhost:27017/libretucaPicantita',
+//  {useNewUrlParser: true, 
+//   useUnifiedTopology: true,
+//   useCreateIndex: true,
+//   useFindAndModify: false
+// });
 // mongoose.connection.on('open', _ => {
 //     console.log('data base conected');
 // });
-
-// mongoose.set('useFindAndModify', false);
