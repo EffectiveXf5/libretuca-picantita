@@ -1,7 +1,11 @@
+'use strict';
+
 const express = require("express");
 const app = express();
 const port = 5500;
 const handlebars = require("express-handlebars");
+const morgan = require("morgan");
+
 
 require('./conexion');
 
@@ -17,6 +21,11 @@ app.engine(
 );
 
 app.use(express.static("public"));
+app.use(morgan('dev'));
+        app.use(express.json());
+        app.use(express.urlencoded({extended:false}));
+
+app.use(require('./routes/book.routes')); 
 
 app.get("/", (req, res) => {
   res.render("1main", {layout: "principal"});
