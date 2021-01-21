@@ -20,7 +20,7 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: right;
-    margin: 5rem;
+    margin: -42rem;
 }
 
 button{
@@ -37,8 +37,8 @@ button{
     display: flex;
     width: 7rem;
     height: 2rem;
-    margin-left: 33rem;
-    margin-top: -5rem;
+    margin-left: -3rem;
+    margin-top: 24rem;
     margin-bottom: 1rem;
     color: black;
     font-size: 1rem;
@@ -50,8 +50,8 @@ button{
     display: flex;
     width: 4.5rem;
     height: 2rem;
-    margin-left: 45rem;
-    margin-top: -5rem;
+    margin-left: 47rem;
+    margin-top: 24rem;
     margin-bottom: 3rem;
     color: black;
     font-size: 1.7rem;
@@ -63,8 +63,8 @@ button{
     display: flex;
     width: 45rem;
     height: 20rem;
-    margin-left: 33rem;
-    margin-top: -26rem;
+    margin-left: -19rem;
+    margin-top: 3rem;
     color: black;
     font-size: 1rem;
     border: none;
@@ -75,10 +75,10 @@ button{
     display: flex;
     width: 60rem;
     height: 2rem;
-    margin-left: 34rem;
+    margin-left: 67rem;
     color: black;
     border: none;
-    margin-top: -29rem;
+    margin-top: 0rem;
 }
 
 #portadaNuevo {
@@ -94,7 +94,7 @@ button{
     display: flex;
     width: 4rem;
     height: 2rem;
-    margin-left: -31rem;
+    margin-left: 16rem;
     margin-top: 22rem;
     margin-bottom: 5rem;
     color: black;
